@@ -15,7 +15,7 @@ export class App extends React.Component<{}, AppState>{
     return (
       <div>
         Hello World
-        <Login />
+        <Login authService={this.authService}/>
       </div>
     )
   }
